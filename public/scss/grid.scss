@@ -1,0 +1,91 @@
+.container {
+  width: 640px;
+  height: 640px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 0 0;
+  grid-auto-flow: row;
+  grid-template-areas:
+            "carte1 carte2 carte3 carte4"
+            "carte5 carte6 carte7 carte8"
+            "carte9 carte10 carte11 carte12"
+            "carte13 carte14 carte15 carte16";
+
+  .carte1 {
+    grid-area: carte1;
+  }
+
+  .carte2 {
+    grid-area: carte2;
+  }
+
+  .carte3 {
+    grid-area: carte3;
+  }
+
+  .carte4 {
+    grid-area: carte4;
+  }
+
+  .carte5 {
+    grid-area: carte5;
+  }
+
+  .carte6 {
+    grid-area: carte6;
+  }
+
+  .carte7 {
+    grid-area: carte7;
+  }
+
+  .carte8 {
+    grid-area: carte8;
+  }
+
+  .carte9 {
+    grid-area: carte9;
+  }
+
+  .carte10 {
+    grid-area: carte10;
+  }
+
+  .carte11 {
+    grid-area: carte11;
+  }
+
+  .carte12 {
+    grid-area: carte12;
+  }
+
+  .carte13 {
+    grid-area: carte13;
+  }
+
+  .carte14 {
+    grid-area: carte14;
+  }
+
+  .carte15 {
+    grid-area: carte15;
+  }
+
+  .carte16 {
+    grid-area: carte16;
+  }
+
+  .carte {
+    height: 150px;
+    width: 150px;
+    margin: 2px
+  }
+
+  .carte {
+    img {
+      height: 150px;
+      width: 150px;
+    }
+  }
+}
